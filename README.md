@@ -1,11 +1,21 @@
 # test-dev
 
-requests分支主要是接口测试框架：pytest+requests+allure
+####一、准备
 
-selenium分支主要是web测试框架：pytest+selenium+allure
+**1.1、更新最新插件**
 
-appium分支主要是app测试框架：pytest+appium+allure
+插件名写入requirements.txt，
 
-开发环境：macOS12.3+python3.9
+在terminal执行：pip install -r requirements.txt
 
-使用环境：centos7.9+python2.7+jenkins2.296
+验证：pytest --version
+
+**1.2、简单测试selenium**
+
+cd /usr/local/bin
+
+chromedriver
+
+运行成功，即为测试通过
+
+参考资料：https://blog.csdn.net/qq_37982823/article/details/122898031
